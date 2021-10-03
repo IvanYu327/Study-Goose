@@ -68,7 +68,8 @@ The music bot features were made with discord.py[voice] and youtube_dl
 
 **Image to Text**
 
-The image to text feature was made using pytesseract and PIL (Python Imaging Library)
+The image to text feature was made using pytesseract and PIL (Python Imaging Library)  
+
 **Chatbot**
 
 The chatbot was built with TensorFlow, NumPy, TFLearn, and NLTK (Natural Language Toolkit) and used a custom training set that we created to train the model. We created our own neural network and model instead of using a pre-trained one from the internet in order to fit the context of the bot.
