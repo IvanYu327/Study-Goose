@@ -66,18 +66,28 @@ One issue with school is note taking. With Study Goose’s image to text feature
 **?setprefix**: Allows server admins to update the prefix
 
 ## How we built it
+
 Study Goose has a lot of features, so we will go over each of the groups and how they were built and what technologies it uses. Study Goose itself is a Discord Bot, written in python using the discord.py API, all the features and commands use the discord API in order to communicate with users and bot output.
 
 Specific features that used other technologies were:
+
 **To do list features and setprefix**
+
 The to-do list and prefix was stored with MongoDB, providing a robust way to store large amounts of data in an organized fashion and save it should the bot ever need to reboot. The to-do list's location in the server is also stored, enabling commands like settodo to accurately locate and move the to-do list to a new channel. Everytime Study Goose joins a server, it creates a new collection for it on the database.
+
 **Music Bot**
+
 The music bot features were made with discord.py[voice] and youtube_dl
-I**mage to Text**
+
+**Image to Text**
+
 The image to text feature was made using pytesseract and PIL (Python Imaging Library)
 **Chatbot**
+
 The chatbot was built with tensorflow, numpy, tflearn, and nltk (Natural Language Toolkit) and used a custom training set that we created to train the model. We created our own neural network and model instead of using a pretrained one from the internet in order to fit the context of the bot.
+
 **Questions**
+
 We used the wolfram API to make use of its computational power and vast question and answer base
 
 Full list of technologies: Python, discord.py API, MongoDB, discord.py [voice], youtube_dl, pytesseract, PIL (Python Imaging Library), numpy, tensorflow, tflearn, nltk, wolfram API
