@@ -1,0 +1,73 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hello, thanks talking to me!",
+        "Good to see you again!",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later!",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "creator",
+      "patterns": ["Who created you?", "Who is your owner?", "Who made you?"],
+      "responses": [
+        "My creator is weewoo#6104",
+        "I was created by a first year undergrad engineering student."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "What do you do?",
+        "How do I use you?",
+        "Do you work?",
+        "help",
+        "help me"
+      ],
+      "responses": [
+        "I am a to do bot, study helper, and music bot rolled into one!",
+        "I am Study Goose, your new best friend!",
+        "I can be anything you want!",
+        "Try the `help` command to learn more about me!"
+      ]
+    },
+    {
+      "tag": "sad",
+      "patterns": [
+        "classes are hard",
+        "school makes me sad",
+        "my GPA sucks",
+        "I am bad at school",
+        "ahhhh I am failing",
+        "I just failed a test"
+      ],
+      "responses": [
+        "This is one setback! Keep going, I believe in you!",
+        "One bad mark or course will not define you! You are destined for great things!",
+        "School is not everthing! Focus on the other things in life. :)"
+      ]
+    }
+  ]
+}
