@@ -4,12 +4,12 @@ Discord bot with chatbot AI, to do lists, music, image processing, and more!
 ### [Invite me!](https://discord.com/oauth2/authorize?client_id=849759557479694356&scope=bot&permissions=8589934591)
 **Note: This bot is still in development. Use at your own risk 🦆**
 
-# Inspiration
+# Inspiration 💪
 During the pandemic, many schools from primary to post-secondary have been forced online. As a result, students are finding new ways to connect, manage, and engage in the virtual environment, and communication platforms like Discord have skyrocketed in usage and at many schools like the University of Waterloo, every program, class, and club have a Discord. However, Discord is not a common app for all students, as the platform was originally targeted towards gamers. As a result, it can be a confusing place to navigate on top of all the other online platforms.
 
 We created Study Goose, an all-inclusive Discord Bot for students and beyond! (Called study goose because like the Canadian Geese infestation at our university, Study Goose is everywhere)
 
-# What it does
+# What it does 💻
 Study Goose does many things, and we’ll go over each of its features and commands associated with each category.
 
 **To do list**
@@ -68,7 +68,7 @@ One issue with school is note-taking. With Study Goose’s image to text feature
 **?help [command]**: Displays help details for every command and how to use it
 **?setprefix**: Allows server admins to update the prefix
 
-## How we built it
+## How we built it 👨‍💻
 
 Study Goose has a lot of features, so we will go over each of the groups and how they were built and what technologies it uses. Study Goose itself is a Discord Bot, written in python using the discord.py API, all the features and commands use the discord API in order to communicate with users and bot output.
 
