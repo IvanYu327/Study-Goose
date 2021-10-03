@@ -4,7 +4,7 @@ Discord bot with chatbot AI, to do lists, music, image processing, and more!
 ### [Invite me!](https://discord.com/oauth2/authorize?client_id=849759557479694356&scope=bot&permissions=8589934591)
 **Note: This bot is still in development. Use at your own risk 🦆**
 
-# Inspiration 💪
+# Inspiration 💡
 During the pandemic, many schools from primary to post-secondary have been forced online. As a result, students are finding new ways to connect, manage, and engage in the virtual environment, and communication platforms like Discord have skyrocketed in usage and at many schools like the University of Waterloo, every program, class, and club have a Discord. However, Discord is not a common app for all students, as the platform was originally targeted towards gamers. As a result, it can be a confusing place to navigate on top of all the other online platforms.
 
 We created Study Goose, an all-inclusive Discord Bot for students and beyond! (Called study goose because like the Canadian Geese infestation at our university, Study Goose is everywhere)
@@ -96,4 +96,10 @@ We used the wolfram API to make use of its computational power and vast question
 Full list of technologies: Python, discord.py API, MongoDB, discord.py [voice], youtube_dl, pytesseract, PIL (Python Imaging Library), NumPy, TensorFlow, TFLearn, NLTK, wolfram API.
 message.txt
 7 KB
+
+## Learn More 📖
+
+[Watch Demo](https://www.youtube.com/watch?v=bwxRaF9M6Uk) |
+[Read Devpost Description](https://devpost.com/software/study-buddy-fj5bk1)
+
 
